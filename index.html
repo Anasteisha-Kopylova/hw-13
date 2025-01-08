@@ -9,15 +9,51 @@
 </head>
 
 <body class="wrapper">
-<div class="inner">
-    <div class="container">
-        <input type="checkbox" id="toggleSwitch" class="toggleSwitch" />
-        <label for="toggleSwitch" class="toggleLabel">
-          <div class="toggleOption">Вход</div>   
-          <div class="toggleOption">Регистрация</div>
-        </label>
-    </div>
-</div>
-</body>
+    <div class="inner">
+        <div class="container">
+            <input type="checkbox" id="toggleSwitch" class="toggleSwitch" />
+            <label for="toggleSwitch" class="toggleLabel">
+                <div class="toggleOption">Вход</div>
+                <div class="toggleOption">Регистрация</div>
+            </label>
+            
+            <div class="form-container">
+                <h1 class="form-title">Вход</h1>
+        
+                <div class="input-container">
+                    <input type="email" class="input-field" placeholder="Введите E-mail" />
+                </div>
+                
+                <div class="input-container">
+                    <input type="password" class="input-field" placeholder="Пароль" />
+                </div>
 
-</html>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="rememberMe" class="rememberMeCheckbox" />
+                    <label for="rememberMe" class="checkbox-label">Запомнить меня</label>
+                    <a href="#" class="forgot-password">Забыли пароль?</a>
+                </div>
+                <button class="submit-button">Войти</button>
+                <p class="log-in-through">Или войдите через</p>
+                <div class="form-icons">
+                    <a href="#" class="icon-link">
+                    <svg class="icon">
+                        <use href="./img/sprite.svg#fb"></use>
+                    </svg>
+                    </a>
+                    <a href="#" class="icon-link">
+                    <svg class="icon">
+                        <use href="./img/sprite.svg#insta"></use>
+                    </svg>
+                    </a>
+                    <a href="#" class="icon-link">
+                    <svg class="icon">
+                        <use href="./img/sprite.svg#l-in"></use>
+                    </svg>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
